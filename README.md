@@ -12,6 +12,16 @@ Imagine if you could see under the ground in a forest. You'd find something amaz
 - Sick trees get help from healthy ones
 - The whole forest works together as one big family
 
+```mermaid
+graph TD
+    subgraph WoodWideWeb["The Whispering Forest"]
+        MT["Mother Tree"] -->|"Nutrients"| ST["Sapling"]
+        MT -->|"Warnings"| NT["Neighbor Tree"]
+        MT -->|"Support"| HT["Hurting Tree"]
+        NT -->|"Help"| HT
+    end
+```
+
 ## What We Can Learn From This
 
 Now, here's the cool part: what if we could build our technology to work the same way? Instead of having big central computers controlling everything, we could have systems that work like forests:
@@ -28,6 +38,16 @@ Think about your body for a minute. When you get a cut, you don't have to tell y
 - Remembers how to fight similar problems in the future
 - Works 24/7 without you even thinking about it
 
+```mermaid
+graph LR
+    subgraph BodySystem["Natural Problem Solving"]
+        P["Problem"] -->|"Detect"| I["Immune Response"]
+        I -->|"Heal"| H["Health"]
+        M["Memory"] -->|"Learn"| I
+        H -->|"Remember"| M
+    end
+```
+
 ## Making It Real
 
 We're working on creating a similar system for our whole planet! Imagine:
@@ -35,6 +55,17 @@ We're working on creating a similar system for our whole planet! Imagine:
 - Resources automatically going where they're needed most
 - Problems getting fixed before they become big
 - Everyone working together like cells in one big body
+
+```mermaid
+graph TD
+    subgraph GlobalSystem["Earth's Neural Network"]
+        S["Sensors"] -->|"Detect"| N["Network"]
+        N -->|"Analyze"| A["AI"]
+        A -->|"Solutions"| R["Resources"]
+        R -->|"Help"| C["Communities"]
+        C -->|"Feedback"| S
+    end
+```
 
 ## Why This Matters
 
@@ -128,3 +159,4 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ---
 *"The best technology might not be the fanciest - it might be the one that works as naturally as a forest!"*
+```
